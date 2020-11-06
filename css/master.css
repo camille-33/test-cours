@@ -1,0 +1,97 @@
+body {
+  background: rgb(130, 200, 600);
+}
+
+header {
+  background: rgb(80, 100, 200);
+}
+
+section {
+  box-shadow: 6px 6px 12px 0px rgba(144,151,168,1);
+  min-height: 90vh;
+  padding: 1em;
+}
+
+#section-01 {
+  background: #d3d3d3 url('images/image-01.jpg') no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section-01 h1 {
+
+}
+
+/* ici style pour le menu */
+
+nav a {
+  display: block;
+  background: rgb(255, 255, 255);
+  border: 0.5px solid rgb(0, 0, 0);
+  padding: 1em
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+header {
+  display: block;
+  align-items: center;
+}
+
+nav {
+  width: 100%;
+}
+
+/* style section 2 */
+.read-more {
+  display: block;
+  background: block;
+  background: orange;
+  padding: 1em;
+  color: white;
+  float: right;
+  border-radius: 10px;
+}
+
+/* style section 3 */
+
+#section-03 .inner-content {
+  background: orange;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#section-03 .cat-block {
+  padding: 0.5em;
+  margin: 0.5em;
+  flex-basis: 320px;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+#section-03 figure {
+  border: 1px solid rgb(255, 255, 255);
+}
+
+/*Style du footer*/
+
+footer {
+  min-height: 80vh;
+  background: rgb(32, 33, 29);
+  display: flex;
+  align-items: center;
+}
+
+footer a {
+  display: block;
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+  padding: 1em;
+}
